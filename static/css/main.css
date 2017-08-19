@@ -1,0 +1,55 @@
+.bk_shelf, .btn-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card, .card-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.card-block {
+    padding: 1rem 1rem 0;
+    width: 15rem;
+    /*background-color: #DCD3C0;*/
+}
+
+.card-title {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.bk_img {
+    padding: 3%;
+    width: 100%;
+}
+
+a {
+    text-align: center;
+
+}
+
+.btn {
+    background-color: #BA5626; /* rust red */
+    border: none;
+    color: white;
+    width: 3rem;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.btn2 {
+    margin: .5rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 1px black;
+}
