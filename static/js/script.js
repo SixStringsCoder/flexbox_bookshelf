@@ -1,40 +1,17 @@
 /*
- Created on.
+ Created in Aug. 2017
 */
 
-/*Hides/Shows Button area when image or book heading is clicked*/
-// $('.card-block').on('click', function() {
-//     $('.btn-block').slideToggle('slow');
-// });
 
 
-// Get the modal
-var modal = document.getElementById('myModal');
+// Shows Modal when touching the book or book title
+$('.myBtn').on('click', function() {
+    $('.myModal').fadeIn('slow');
+    console.log("Show modal");
+});
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "flex";
-    modal.style.justifyContent = "center";
-    modal.style.flexWrap = "wrap";
-
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-
+// Hides Modal when X is clicked
+$('.close').on('click', function() {
+    $('.myModal').fadeOut('slow');
+    console.log('Hide modal');
+});
