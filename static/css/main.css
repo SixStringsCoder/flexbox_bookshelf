@@ -1,5 +1,9 @@
 /* Small Screen*/
 
+main {
+    margin: 5vw;
+}
+
 #heading {
     text-align: center;
 }
@@ -103,9 +107,7 @@ a {
         width: 100vw;
     }
 
-    .card-title {
-        font-size: .8rem;
-    }
+
 
     .bk_img {
         padding: 5%;
@@ -115,7 +117,7 @@ a {
     /* Buttons for Downloads and Ext. store links */
     .btn-block {
         align-items: flex-start;
-        padding-left: 1vw;
+        padding-left: 2vw;
         padding-bottom: 7vh;
     }
 
@@ -131,11 +133,9 @@ a {
     }
 
     .btn {
-        width: 18vw;
-        padding: 9px 14px;
-        font-size: 0.8rem;
+        width: 150px;
+        padding: 12px 14px;
         margin: .3rem .6rem;
-        text-transform: uppercase;
         cursor: pointer;
     }
 
